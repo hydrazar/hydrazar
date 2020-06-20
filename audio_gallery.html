@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mp3</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="custom.css">
+  <!-- <link rel="stylesheet" type="text/css" href="MDB/css/mdb.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="gallery.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
+
+  <script src="https://kit.fontawesome.com/21e8556f25.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+
+
+<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
+
+
+    <!-- Header -->
+    <div id="feedback">
+      <a href="https://www.youtube.com/yasirusmani" target="_blank"><i class="fab fa-youtube"></i>    SUBSCRRIBE</a>
+    </div>
+
+
+    <div class="header">
+        <div class="header-upper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="contact-1">
+                            <i class="fas fa-phone-square fa-3x"> <a href="#" style="font-size: 1em;"> +1 (346) 302-4548</a></i>
+                             <i class="fas fa-envelope-square fa-3x"> <a href="#" style="font-size: 1em;">ee.yasir@yahoo.com</a></i>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="contact social-header fa-pull-right">
+                          <a href="https://www.youtube.com/yasirusmani" target="_blank"><i class="fab fa-youtube" style="color: red"></i></a>
+                          <a href="https://www.facebook.com/yasirusmanii" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                          <a href="https://www.instagram.com/yasirusmanii" target="_blank"><i class="fab fa-instagram" style="color: #C13584"></i></a>
+                          <a href="https://www.twitter.com/yasirusmanii" target="_blank"><i class="fab fa-tiktok" style="color: black;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md">
+
+                <a class="navbar-brand" href="index.html">
+<!--                     <img src="img/yasirusmanilogo.png" alt="" width="100" height="100">
+ -->                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon" style="color: white;"><i class="fas fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about%20us.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="services.html">SERVICES</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="onlineSeries.html">ONLINE SERIES</a>
+                      </li> 
+                      <li class="nav-item">
+
+                        <div class="dropdown">
+                          <a class="nav-link" href="#" class="dropbtn">LECTURES</a>
+
+                          <div class="dropdown-content">
+                            <a href="gallery.html">APNA EHTISAB</a>
+                            <a href="gallery-2.html">EXPLORE FROM QURAN</a>
+                          </div>
+                        </div>
+                      </li> 
+                      <li class="nav-item">
+
+                        <div class="dropdown">
+                          <a class="nav-link" href="#" class="dropbtn">QURAN</a>
+
+                          <div class="dropdown-content">
+                            <a href="gallery-3.html">TRANSLATION</a>
+                            <a href="audio_gallery.html">MP3</a>
+                          </div>
+                        </div>
+                      </li>    
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                      </li> 
+                  </ul>
+                </div>  
+              </nav>
+        </div>
+    </div>
+    <!-- header closed -->
+
+
+    <section class="feature-section mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Lectures</h2>
+                    <nav>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="index.html">Gallery</a></li>
+                            <li class="breadcrumb-item active">Online Series</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <section class="audio-table">
+                    <table id="myTable" class="table table-striped">
+                        <thead class="thead">
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">SURAH NAME</th>
+                            <th scope="col">LISTEN</th>
+                            <th scope="col">DOWNLOAD</th>
+                          </tr>
+                        </thead>
+                        <!-- <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Surah Sajda</td>
+                            <td>
+                                <audio controls>
+                                <source src="horse.ogg" type="audio/ogg">
+                                <source src="horse.mp3" type="audio/mpeg">
+                              Your browser does not support the audio element.
+                              </audio>
+                              </td>
+                            <td>@mdo</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                          </tr>
+                        </tbody> -->
+                        <tbody><tr data-index="0" data-uniqueid="false">
+                            <td class="asd" style="">1</td>
+                            <td class="wd" style="">Surat azhab</td>
+                            <td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-121.mp3" type="audio/mpeg">
+                            </audio></td>
+                            <td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-121.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="1" data-uniqueid="false"><td class="asd" style="">2</td><td class="wd" style="">surah fatir</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-122.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-122.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="2" data-uniqueid="false"><td class="asd" style="">3</td><td class="wd" style="">surah saba</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-123.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-123.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="3" data-uniqueid="false"><td class="asd" style="">4</td><td class="wd" style="">surah sajda</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-124.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-124.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="4" data-uniqueid="false"><td class="asd" style="">5</td><td class="wd" style="">surah baqra</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-125.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-125.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="5" data-uniqueid="false"><td class="asd" style="">6</td><td class="wd" style="">Surat Al-Fatihah (The Opening) سورۃ الْفَاتِحَة</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-90.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-90.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="6" data-uniqueid="false"><td class="asd" style="">7</td><td class="wd" style="">Surat Al-Baqarah (The Cow) سورۃ البقرة</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-91.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-91.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="7" data-uniqueid="false"><td class="asd" style="">8</td><td class="wd" style="">Surat Al Imran (The Family of Imran) سورۃ آل عمران</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-92.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-92.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="8" data-uniqueid="false"><td class="asd" style="">9</td><td class="wd" style="">Surat An-Nisa' (The Women) سؤرة النساء</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-2.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-2.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="9" data-uniqueid="false"><td class="asd" style="">10</td><td class="wd" style="">Surat Al-Ma'idah (The Food) سورۃ المائدة</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-93.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-93.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="10" data-uniqueid="false"><td class="asd" style="">11</td><td class="wd" style="">Surah Al-An'am (The Cattle) سؤرة الأنعام</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-5.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-5.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="11" data-uniqueid="false"><td class="asd" style="">12</td><td class="wd" style="">Surat Al-A'raf (The Heights) سورۃ الأعراف</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-94.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-94.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="12" data-uniqueid="false"><td class="asd" style="">13</td><td class="wd" style="">Surat Al-Anfal (The Spoils of War) سورۃ الأنفال</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-95.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-95.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="13" data-uniqueid="false"><td class="asd" style="">14</td><td class="wd" style="">Surat At-Tawbah (The Repentance) سورۃ التوبة</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-96.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-96.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="14" data-uniqueid="false"><td class="asd" style="">15</td><td class="wd" style="">Surat Yunus (Yunus) سورۃ يونس</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-97.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-97.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="15" data-uniqueid="false"><td class="asd" style="">16</td><td class="wd" style="">Surat Hud (Hud) سورۃ هود</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-98.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-98.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="16" data-uniqueid="false"><td class="asd" style="">17</td><td class="wd" style="">Surat Yusuf (Joseph) سورۃ يوسف</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-99.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-99.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="17" data-uniqueid="false"><td class="asd" style="">18</td><td class="wd" style="">Surat Ar-Ra'd (The Thunder) سورۃ الرعد</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-100.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-100.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="18" data-uniqueid="false"><td class="asd" style="">19</td><td class="wd" style="">Surat Ibraheem (Abraham ) سورۃ إبراهيم</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-101.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-101.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="19" data-uniqueid="false"><td class="asd" style="">20</td><td class="wd" style="">Surat Al-Hijr (The Rocky Tract) سورۃ الحجر</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-102.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-102.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="20" data-uniqueid="false"><td class="asd" style="">21</td><td class="wd" style="">Surat An-Nahl (The Honey Bees) سورۃ النحل</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-103.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-103.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="21" data-uniqueid="false"><td class="asd" style="">22</td><td class="wd" style="">Surat Al-Isrā (The Night Journey)  سورۃ الإسراء</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-104.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-104.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="22" data-uniqueid="false"><td class="asd" style="">23</td><td class="wd" style="">Surat Al-Kahf (The Cave) سورۃ الكهف</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-105.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-105.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="23" data-uniqueid="false"><td class="asd" style="">24</td><td class="wd" style="">Surat Maryam (Maryam) سورۃ مريم</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-106.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-106.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="24" data-uniqueid="false"><td class="asd" style="">25</td><td class="wd" style="">Surat Ta-Ha (Ta-Ha) سورۃ طه</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-107.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-107.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="25" data-uniqueid="false"><td class="asd" style="">26</td><td class="wd" style="">Surat Al-Anbiyā (The Prophets) سورۃ الأنبياء</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-108.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-108.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="26" data-uniqueid="false"><td class="asd" style="">27</td><td class="wd" style="">Surat Al-Hajj (The Pilgrimage) سؤرة الحج</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-4.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-4.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="27" data-uniqueid="false"><td class="asd" style="">28</td><td class="wd" style="">Surat Al-Mu'minoon (The Believers) سؤرة المؤمنون</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-3.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-3.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="28" data-uniqueid="false"><td class="asd" style="">29</td><td class="wd" style="">Surat An-Nur (The Light) سورة النور</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-109.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-109.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="29" data-uniqueid="false"><td class="asd" style="">30</td><td class="wd" style="">Surat Al-Furqan (The Criterion) سورۃ الفرقان</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-110.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-110.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="30" data-uniqueid="false"><td class="asd" style="">31</td><td class="wd" style="">Surat Ash-Shuʻarā (The Poets) سورۃ الشعراء</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-111.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-111.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="31" data-uniqueid="false"><td class="asd" style="">32</td><td class="wd" style="">Surat An-Naml (The Ant) سورۃ النمل</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-112.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-112.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="32" data-uniqueid="false"><td class="asd" style="">33</td><td class="wd" style="">Surat Al-Qasas (The Stories) سورة القصص</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-113.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-113.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="33" data-uniqueid="false"><td class="asd" style="">34</td><td class="wd" style="">Surat Al-‘Ankabūt (The Spider) سورۃ العنكبوت</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-114.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-114.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="34" data-uniqueid="false"><td class="asd" style="">35</td><td class="wd" style="">Surat Ar-Rūm (The Romans) سورۃ الروم</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-115.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-115.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="35" data-uniqueid="false"><td class="asd" style="">36</td><td class="wd" style="">Surat Luqmān (Luqman) سورۃ لقمان</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-116.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-116.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="36" data-uniqueid="false"><td class="asd" style="">37</td><td class="wd" style="">Surat As-Sajdah (The Prostration) سورۃ السجدة</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-117.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-117.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="37" data-uniqueid="false"><td class="asd" style="">38</td><td class="wd" style="">Surat Al-Aḥzāb (The Clans) سورۃ الأحزاب</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-118.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-118.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="38" data-uniqueid="false"><td class="asd" style="">39</td><td class="wd" style="">Surat Saba (Saba) سورۃ سبأ</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-119.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-119.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="39" data-uniqueid="false"><td class="asd" style="">40</td><td class="wd" style="">Surat Fāṭir (The Originator) سورۃ فاطر</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-120.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-120.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="40" data-uniqueid="false"><td class="asd" style="">41</td><td class="wd" style="">Surat Ya Seen (Ya Seen) سؤرة يس</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-14.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-14.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="41" data-uniqueid="false"><td class="asd" style="">42</td><td class="wd" style="">Surat As-Saffat (Those Ranged in Ranks) سؤرة الصافات</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-13.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-13.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="42" data-uniqueid="false"><td class="asd" style="">43</td><td class="wd" style="">Surat Sad (Sad) سؤرة ص</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-89.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-89.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="43" data-uniqueid="false"><td class="asd" style="">44</td><td class="wd" style="">Surat Az-Zumar (The Crowds) سؤرة الزمر</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-87.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-87.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="44" data-uniqueid="false"><td class="asd" style="">45</td><td class="wd" style="">Surat Ghafir (The Forgiver (God)) سؤرة غافر</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-86.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-86.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="45" data-uniqueid="false"><td class="asd" style="">46</td><td class="wd" style="">Surat Fussilat (Explained In Detail) سؤرة فصلت</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-85.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-85.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="46" data-uniqueid="false"><td class="asd" style="">47</td><td class="wd" style="">Surat Ash-Shura (The Consultation) سؤرة الشورى</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-84.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-84.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="47" data-uniqueid="false"><td class="asd" style="">48</td><td class="wd" style="">Surat Az-Zukhruf (The Gold Adornments) سؤرة الزخرف</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-83.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-83.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="48" data-uniqueid="false"><td class="asd" style="">49</td><td class="wd" style="">Surat Ad-Dukhan (Smoke) سؤرة الدخان</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-7.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-7.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="49" data-uniqueid="false"><td class="asd" style="">50</td><td class="wd" style="">Surat Al-Jathiya (Kneeling) سؤرة الجاثية</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-10.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-10.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="50" data-uniqueid="false"><td class="asd" style="">51</td><td class="wd" style="">Surat Al Aḥqāf (The sand dunes) سؤرة الْأَحْقَافْ</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-6.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-6.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="51" data-uniqueid="false"><td class="asd" style="">52</td><td class="wd" style="">Surat Muhammad (Fighting) سؤرة محمد</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-11.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-11.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="52" data-uniqueid="false"><td class="asd" style="">53</td><td class="wd" style="">Surat Al-Fath (Victory) سؤرة الفتح</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-8.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-8.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="53" data-uniqueid="false"><td class="asd" style="">54</td><td class="wd" style="">Surat Al-Hujurat (The Private Chambers) سؤرة الحجرات</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-9.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-9.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="54" data-uniqueid="false"><td class="asd" style="">55</td><td class="wd" style="">Surat Qaf (Qaf) سؤرة ق</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-12.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-12.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="55" data-uniqueid="false"><td class="asd" style="">56</td><td class="wd" style="">Surat Ad-Dhariyat (The Wind That Scatter) سؤرة الذاريات</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-82.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-82.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="56" data-uniqueid="false"><td class="asd" style="">57</td><td class="wd" style="">Surat At-Tur (The Mount) سؤرة الطور</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-81.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-81.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="57" data-uniqueid="false"><td class="asd" style="">58</td><td class="wd" style="">Surat An-Najm (The Star) سؤرة النجم</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-80.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-80.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="58" data-uniqueid="false"><td class="asd" style="">59</td><td class="wd" style="">Surat Al-Qamar (The Moon) سؤرة القمر</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-42.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-42.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="59" data-uniqueid="false"><td class="asd" style="">60</td><td class="wd" style="">Surat Ar-Rahman (The Most Merciful) سؤرة الرحمان</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-79.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-79.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="60" data-uniqueid="false"><td class="asd" style="">61</td><td class="wd" style="">Surat Al-Waqi'ah (The Event) سؤرة الواقعة</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-78.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-78.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="61" data-uniqueid="false"><td class="asd" style="">62</td><td class="wd" style="">Surat Al-Hadeed (The Iron) سؤرة الحديد</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-77.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-77.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="62" data-uniqueid="false"><td class="asd" style="">63</td><td class="wd" style="">Surat Al-Mujadilah (The Pleading) سؤرة المجادلة</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-76.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-76.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="63" data-uniqueid="false"><td class="asd" style="">64</td><td class="wd" style="">Surat Al-Hashr (The Mustering) سؤرة الحشر</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-75.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-75.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="64" data-uniqueid="false"><td class="asd" style="">65</td><td class="wd" style="">Surat Al-Mumtahanah (The Examined One)  سؤرة الممتحنة</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-74.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-74.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="65" data-uniqueid="false"><td class="asd" style="">66</td><td class="wd" style="">Surat As-Saff (The Ranks) سؤرة الصف</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-73.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-73.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="66" data-uniqueid="false"><td class="asd" style="">67</td><td class="wd" style="">Surat Al-Jumu'ah (Friday) سؤرة الجمعة</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-72.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-72.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="67" data-uniqueid="false"><td class="asd" style="">68</td><td class="wd" style="">Surat Al-Munafiqun (The Hypocrites) سؤرة المنافقون</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-71.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-71.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="68" data-uniqueid="false"><td class="asd" style="">69</td><td class="wd" style="">Surat At-Taghabun (The Cheating) سؤرة التغابن</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-70.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-70.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="69" data-uniqueid="false"><td class="asd" style="">70</td><td class="wd" style="">Surat At-Talaq (Divorce) سؤرة الطلاق</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-69.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-69.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="70" data-uniqueid="false"><td class="asd" style="">71</td><td class="wd" style="">Surat At-Tahreem (The Prohibition) سؤرة التحريم</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-68.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-68.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="71" data-uniqueid="false"><td class="asd" style="">72</td><td class="wd" style="">Surat Al-Mulk (Sovereignty) سؤرة الملك</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-67.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-67.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="72" data-uniqueid="false"><td class="asd" style="">73</td><td class="wd" style="">Surat Al-Qalam (The Pen) سؤرة القلم</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-66.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-66.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="73" data-uniqueid="false"><td class="asd" style="">74</td><td class="wd" style="">Surat Al-Haqqah (The Sure Reality) سؤرة الحاقة</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-65.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-65.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="74" data-uniqueid="false"><td class="asd" style="">75</td><td class="wd" style="">Surat Al-Ma'aarij (The Ways of Ascent) سؤرة المعارج</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-64.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-64.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="75" data-uniqueid="false"><td class="asd" style="">76</td><td class="wd" style="">Surat Nuh (Noah) سؤرة نوح</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-63.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-63.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="76" data-uniqueid="false"><td class="asd" style="">77</td><td class="wd" style="">Surat Al-Jinn (The Spirits) سؤرة الجن</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-62.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-62.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="77" data-uniqueid="false"><td class="asd" style="">78</td><td class="wd" style="">Surat Al-Muzzammil (The Enfolded One) سؤرة المزمل</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-61.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-61.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="78" data-uniqueid="false"><td class="asd" style="">79</td><td class="wd" style="">Surat Al-Muddathir (The Cloaked One) سؤرة ٱلْمُدَّثِّر</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-60.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-60.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="79" data-uniqueid="false"><td class="asd" style="">80</td><td class="wd" style="">Surat Al-Qiyamah (Resurrection) سؤرة القيامة</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-59.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-59.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="80" data-uniqueid="false"><td class="asd" style="">81</td><td class="wd" style="">Surat Al-Insan (The Human) سؤرة الإنسان</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-58.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-58.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="81" data-uniqueid="false"><td class="asd" style="">82</td><td class="wd" style="">Surat Al-Mursalat (Those Sent Forth) سؤرة المرسلات</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-41.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-41.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="82" data-uniqueid="false"><td class="asd" style="">83</td><td class="wd" style="">Surat An-Naba' (The Tiding) سؤرة ،النبأ</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-17.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-17.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="83" data-uniqueid="false"><td class="asd" style="">84</td><td class="wd" style="">Surat An-Nazi'at (The Snatchers) سؤرة النازعات</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-18.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-18.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="84" data-uniqueid="false"><td class="asd" style="">85</td><td class="wd" style="">Surat Abasa (He Frowned) سؤرة عبس</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-19.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-19.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="85" data-uniqueid="false"><td class="asd" style="">86</td><td class="wd" style="">Surat At-Takawir (The Enfolding) سؤرة التكوير</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-20.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-20.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="86" data-uniqueid="false"><td class="asd" style="">87</td><td class="wd" style="">Surat Al-Infitar (The Splitting) سؤرة الإنفطار</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-21.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-21.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="87" data-uniqueid="false"><td class="asd" style="">88</td><td class="wd" style="">Surat Al-Mutaffifeen (The Defrauders) سؤرة المطففين</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-22.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-22.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="88" data-uniqueid="false"><td class="asd" style="">89</td><td class="wd" style="">Surat Al-Inshiqaq (The Bursting Open) سؤرة الإنشقاق</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-23.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-23.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="89" data-uniqueid="false"><td class="asd" style="">90</td><td class="wd" style="">Surat Al-Burooj (The Constellations) سؤرة البروج</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-24.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-24.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="90" data-uniqueid="false"><td class="asd" style="">91</td><td class="wd" style="">Surat At-Tariq (The Night Visitant) سؤرة الطارق</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-25.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-25.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="91" data-uniqueid="false"><td class="asd" style="">92</td><td class="wd" style="">Surat Al-A'la (The Highest) سؤرة الأعلى</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-26.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-26.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="92" data-uniqueid="false"><td class="asd" style="">93</td><td class="wd" style="">Surat Al-Ghashiya (The Overwhelming Event) سؤرة الغاشية</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-27.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-27.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="93" data-uniqueid="false"><td class="asd" style="">94</td><td class="wd" style="">Surat Al-Fajr (The Dawn) سؤرة الفجر</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-28.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-28.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="94" data-uniqueid="false"><td class="asd" style="">95</td><td class="wd" style="">Surat Al-Balad (The City) سؤرة البلد</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-29.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-29.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="95" data-uniqueid="false"><td class="asd" style="">96</td><td class="wd" style="">Surat Ash-Shams (The Sun) سؤرة الشمس</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-30.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-30.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="96" data-uniqueid="false"><td class="asd" style="">97</td><td class="wd" style="">Surat Al-Lail (The Night) سؤرة الليل</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-31.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-31.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="97" data-uniqueid="false"><td class="asd" style="">98</td><td class="wd" style="">Surat Ad-Dhuha (The Morning Brightness) سؤرة الضحى</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-32.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-32.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="98" data-uniqueid="false"><td class="asd" style="">99</td><td class="wd" style="">Surat Al-Inshirah (Expansion) سؤرة الشرح</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-33.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-33.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="99" data-uniqueid="false"><td class="asd" style="">100</td><td class="wd" style="">Surat At-Teen (The Fig) سؤرة التين</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-34.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-34.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="100" data-uniqueid="false"><td class="asd" style="">101</td><td class="wd" style="">Surat Al-Alaq (The Blood Clot) سؤرة العلق</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-35.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-35.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="101" data-uniqueid="false"><td class="asd" style="">102</td><td class="wd" style="">Surat Al-Qadr (The Night of Power) سؤرة القدر</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-36.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-36.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="102" data-uniqueid="false"><td class="asd" style="">103</td><td class="wd" style="">Surat Al-Bayyina (The Clear Proof) سؤرة البينة</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-37.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-37.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="103" data-uniqueid="false"><td class="asd" style="">104</td><td class="wd" style="">Surat Az-Zalzala (The Earthquake) سؤرة الزلزلة</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-38.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-38.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="104" data-uniqueid="false"><td class="asd" style="">105</td><td class="wd" style="">Surat Al-'Adiyat (The Chargers) سؤرة العاديات</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-39.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-39.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="105" data-uniqueid="false"><td class="asd" style="">106</td><td class="wd" style="">Surat Al-Qari'a (The Catastrophe) سؤرة القارعة</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-44.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-44.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="106" data-uniqueid="false"><td class="asd" style="">107</td><td class="wd" style="">Surat At-Takathur (Vying for Increase) سؤرة التكاثر</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-45.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-45.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="107" data-uniqueid="false"><td class="asd" style="">108</td><td class="wd" style="">Surat Al-'Asr (Time) سؤرة العصر</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-46.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-46.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="108" data-uniqueid="false"><td class="asd" style="">109</td><td class="wd" style="">Surat Al-Humaza (The Slanderer) سؤرة الهمزة</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-47.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-47.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="109" data-uniqueid="false"><td class="asd" style="">110</td><td class="wd" style="">Surat Al-Feel (The Elephant) سؤرة الفيل</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-48.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-48.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="110" data-uniqueid="false"><td class="asd" style="">111</td><td class="wd" style="">Surat Quraysh (Quraysh) سؤرة قريش</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-49.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-49.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="111" data-uniqueid="false"><td class="asd" style="">112</td><td class="wd" style="">Surat Al-Ma'oon (Assistance) سؤرة الماعون</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-50.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-50.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="112" data-uniqueid="false"><td class="asd" style="">113</td><td class="wd" style="">Surat Al-Kawthar (Abundance) سؤرة الكوثر</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-51.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-51.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="113" data-uniqueid="false"><td class="asd" style="">114</td><td class="wd" style="">Surat Al-Kafiroon (Disbelievers) الكافرون</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-52.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-52.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="114" data-uniqueid="false"><td class="asd" style="">115</td><td class="wd" style="">Surat An-Nasr (Help) سؤرة النصر</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-53.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-53.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="115" data-uniqueid="false"><td class="asd" style="">116</td><td class="wd" style="">Surat Al-Masad (Palm Fiber) سؤرة المسد</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-54.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-54.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="116" data-uniqueid="false"><td class="asd" style="">117</td><td class="wd" style="">Surat Al-Ikhlas (Sincerity) سؤرة الإخلاص</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-55.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-55.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="117" data-uniqueid="false"><td class="asd" style="">118</td><td class="wd" style="">Surat Al-Falaq (Daybreak) سؤرة الفلق</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-56.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-56.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr><tr data-index="118" data-uniqueid="false"><td class="asd" style="">119</td><td class="wd" style="">Surat An-Nas (Mankind) سؤرة الناس</td><td style=""><audio id="player" controls="" loop="" style="width: 460px;">
+                            <source src="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-57.mp3" type="audio/mpeg">
+                            </audio></td><td class="av" style=""><a href="https://www.yasirusmani.com/assets/img/mp3-audio/Surah-name-57.mp3" download=""><i class="fas fa-download fa-2x"></i></a></td></tr></tbody>
+                      </table>
+                </section>
+            </div>
+           
+        </div>
+    </div>
+    
+
+    
+
+    <!-- Footer -->
+
+
+
+<footer class="page-footer font-small pt-4">
+
+  <div class="container-fluid text-center text-md-left" style="padding: 0">
+    <div class="container" style="height: auto;">
+
+    <div class="row">
+
+      <div class="col-md-6 mt-md-0 mt-6">
+
+        <h1 class="text-uppercase">CONTACT</h1>
+        <p>MAIN OFFICE <br>
+          4425 DAVID DR, METAIRIE, LA 70003
+        </p><br>
+        <div class="footer-social">
+          <a href="https://www.twitter.com/yasirusmanii" target="_blank"><i class="fab fa-twitter-square"></i></a>
+          <a href="https://www.facebook.com/yasirusmanii" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/yasirusmanii" target="_blank"><i class="fab fa-instagram-square"></i></a>
+          <a href="https://www.youtube.com/yasirusmani" target="_blank"><i class="fab fa-youtube"></i></a>
+          </div>
+
+
+      </div>
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <div class="col-md-6 mb-md-0 mb-6">
+        <form class="form-group">
+
+         <h4 class="text-uppercase text-center">GET INVOLVED</h4>
+          <input class="form-control" type="name" placeholder="Your Name.."><br>
+          <input class="form-control" type="E-mail" placeholder="Your E-mail.."><br>
+          <textarea class="form-control" placeholder="Message"></textarea><br>
+          <button class="btn">CONTACT ME</button>
+        
+        </form>
+
+
+
+</div>
+</div>
+  </div>
+</div>  
+  <div class="footer-copyright">
+    <div style="overflow: hidden;">
+    <p style="float: left; margin-left: 10px;">Designed by Letscodify Solutions</p>
+    <p style="float: right; margin-right: 10px;">© 2020 Copyright: All Rights Reserved</p>
+</div>
+  </div>
+
+</footer>
+
+
+  <script src="MDB/js/jquery.min.js" ></script>
+<script src="MDB/js/popper.min.js" ></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="MDB/js/mdb.min.js" ></script>
+<script src="Assets/js/gallery.js" ></script>
+<script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js" ></script>
+<script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js" ></script>
+
+
+<script>
+$(document).ready( function () {
+    $('#myTable').DataTable(
+{
+    scrollX: true
+}
+    );
+
+    // $('#myTable input').addClass("form-control");
+} );
+
+</script>
+
+</body>
+</html>
